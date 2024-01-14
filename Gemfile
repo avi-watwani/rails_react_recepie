@@ -61,5 +61,13 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Rails Rspec
+  gem 'rspec-rails'
 end
 
+# API Documentation
+gem 'rswag'
+
+# Gem for versioning API's
+gem 'versionist'
